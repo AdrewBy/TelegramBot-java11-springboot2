@@ -1,0 +1,23 @@
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/telegram_bot
+    username: root
+    password: mysql
+
+telegram:
+  bot:
+    bot-name:
+    token:
+    owner:
+
+
+cron:
+  scheduler: 0*****
+
